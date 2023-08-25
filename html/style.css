@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    height: 150vh;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: blueviolet;
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+
+}
