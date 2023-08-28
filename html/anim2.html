@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: plum;
+            margin: 2px;
+            transition-property: background-color,height,width,border-radius,border;
+            transition-duration: 5s;
+            transform: rotate(360 deg);
+        }
+        .box:hover{
+            background-color: aqua;
+            height: 500px;
+            width: 500px;
+            border-radius: 300px;
+            cursor: pointer;
+            border: 25px dashed plum;
+        }
+        #img{
+            height: 100%;
+            width: 100%;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box" ><img id="img" src="https://m.media-amazon.com/images/I/41Lt6cGWILL._AC_UF894,1000_QL80_.jpg" alt=""></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>

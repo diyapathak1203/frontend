@@ -62,6 +62,89 @@
     height: 100%;
 }
 .a31{
-    color: white;
+    color: white;  
+   
+}
+#b121,#b122,#b123,#b124{
+
+    width: 100%;
+    height: 23%;
+    border: 2px solid black;
+    display: flex;
+}
+
+#l,#n,#p,#r{
+    width: 10%;
+    height: 100%;
+    border:  solid black;
+    position: relative;
+    display: flex;
     justify-content: center;
+    align-items: center;
+
+}
+#m{
+    width: 90%;
+    height: 100%;
+}
+#briefcase,#home,#call,#envelope{
+    height: 60%;
+    width: 60%;
+} 
+ #p1,#p2,#p3,#p4{
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -7px;
+   
+
+} 
+#as1,#as2,#as3,#as4,#as5{
+    height: 19%;
+    width: 100%;
+    border: 2px solid yellowgreen;
+}
+#ast{
+    height: 5%;
+    width: 5%;
+}
+#aage{
+ height: 100%;
+ width: 10%;
+}
+#as1{
+    display: flex;
+}
+#bs1,#bs2,#bs3,#bs4{
+    height: 23%;
+    width: 100%;
+    border: 2px solid red;
+}
+#a22,#a23,#a24{
+    height: 27%;
+    border: 2px solid pink;
+}
+#a21{
+    height: 18%;
+    border: 2px solid blue;
+    width: 100%;
+}
+#k2,#k3,#k4
+{
+    height: 27%;
+    width: 100%;
+    border: 2px solid darkgoldenrod;
+}
+#k1{
+    height: 18%;
+    width: 100%;
+    border:2px solid sandybrown;
+}
+#as21{
+    height: 100%;
+    width: 10%;
+    border: 2px solid orange;
+ 
+}
+#as22{
+    height: 100%;
 }
